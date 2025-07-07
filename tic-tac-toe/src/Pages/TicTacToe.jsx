@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./TicTacToe.css"
 
 function TicTacToe() {
-const [array,setArray]=useState(new Array(9).fill(null));
+const [array,setArray]=useState(new Array(9).fill(null));// this is my learning 
 const [turn,setTurn]=useState('X');
 const [play,setPlay]=useState(true);
 const [winner,SetWinner]=useState();
@@ -20,7 +20,7 @@ const checkWinner=(array)=>{
   const winnerCondition=[   [0, 1, 2], [3, 4, 5], [6, 7, 8],
     [0, 3, 6], [1, 4, 7], [2, 5, 8],
     [0, 4, 8], [2, 4, 6]];
-    for(let condition of winnerCondition){
+    for(let condition of winnerCondition){// this is my learning
       let[a,b,c]=condition
       if(array[a]==array[b]&&array[b]==array[c]&& array[c]==array[a]&&(array[a]!=null&&array[b]!=null&&array[c]!=null)){
         setPlay(false);
