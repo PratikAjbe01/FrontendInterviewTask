@@ -1,0 +1,8 @@
+.screenview{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: black;
+  
+    display: flex;
+    justify-content: center;
+}
