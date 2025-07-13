@@ -1,47 +1,86 @@
-.imagePage{
-    height: 100vh;
-    min-width:100vw;
-    background-color:none;
+.imagePage {
+  height: 100vh;
+  min-width: 100vw;
+  background-color: none;
 }
+
 .imageDiv {
-    width: 100%;
-    height: 100%;
-
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  flex-direction: column;
+  position: relative; 
 }
 
-.left-right{
-    width: 100%;
-       display: flex;
-    align-items: center;
-    justify-content: space-between;
+.left-right {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute; 
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 20px; 
 }
-.left-right>button{
-    background: none;
-    font-size: 30px;
+
+.left-right > button {
+
+  border: none;
+  font-size: 30px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+ background: none;
+  color: white;
 }
-.btn{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+
+
+
+.left-right > button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
-.list{
-    display: flex;
-    gap: 5px;
+
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute; /* Position dots absolutely */
+  bottom: 20px;
 }
-.li{
-    padding: 5px;
-    height: 5px;
-    font-size: 30px;
-    width: 5px;
-   border-radius: 50%;
-color: white;
-   transition: all 0.3s ease;
-    
+
+.list {
+  display: flex;
+  gap: 10px; /* Increased gap */
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0;
+}
+
+.li {
+  padding: 0; /* Removed padding */
+  height: 15px; /* Increased size */
+  width: 15px;
+  border-radius: 50%;
+  background-color: white; /* Default background */
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid rgba(255, 255, 255, 0.5); /* Added border */
+}
+
+.li:hover {
+  transform: scale(1.2);
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 18px;
 }
