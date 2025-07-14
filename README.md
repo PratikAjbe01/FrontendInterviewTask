@@ -15,6 +15,7 @@ Whether you're preparing for **intern**, **junior**, or **mid-level frontend int
 | 🔁 Switch Tab    | Tabbed layout switching content on click |
 | ❌ Tic Tac Toe   | Classic game built with React |
 | 🖼 Image Carousel| manual image slider with transitions |
+| 📑 Accordion           | Expand/collapse sections dynamically |
 
 ---
 
@@ -22,7 +23,6 @@ Whether you're preparing for **intern**, **junior**, or **mid-level frontend int
 
 | Task Type              | Description |
 |------------------------|-------------|
-| 📑 Accordion           | Expand/collapse sections dynamically |
 | 🎯 Modal/Popup         | Display modal overlays on action |
 | ✅ To-Do List          | Add, check, delete task items |
 | 🧪 Form Validation     | Real-time form field validations |
