@@ -14,7 +14,7 @@ Whether you're preparing for **intern**, **junior**, or **mid-level frontend int
 | 📄 Pagination    | Page navigation component for long data lists |
 | 🔁 Switch Tab    | Tabbed layout switching content on click |
 | ❌ Tic Tac Toe   | Classic game built with React |
-| 🖼 Image Carousel| Auto/manual image slider with transitions |
+| 🖼 Image Carousel| manual image slider with transitions |
 
 ---
 
