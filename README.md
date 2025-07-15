@@ -16,6 +16,7 @@ Whether you're preparing for **intern**, **junior**, or **mid-level frontend int
 | ❌ Tic Tac Toe   | Classic game built with React |
 | 🖼 Image Carousel| manual image slider with transitions |
 | 📑 Accordion           | Expand/collapse sections dynamically |
+| 🎯 Modal/Popup         | Display modal overlays on action |
 
 ---
 
@@ -23,12 +24,10 @@ Whether you're preparing for **intern**, **junior**, or **mid-level frontend int
 
 | Task Type              | Description |
 |------------------------|-------------|
-| 🎯 Modal/Popup         | Display modal overlays on action |
 | ✅ To-Do List          | Add, check, delete task items |
 | 🧪 Form Validation     | Real-time form field validations |
 | 🔍 Search Filter       | Filter displayed items based on user input |
 | ⏳ Debounce API Call   | Debounce input to optimize API usage |
-| 🌗 Dark/Light Mode     | Theme toggle using CSS/JS |
 | 🪄 Drag and Drop List  | Reorder elements using drag-and-drop |
 | 🪜 Multi-step Form     | Step-wise form UI component |
 
